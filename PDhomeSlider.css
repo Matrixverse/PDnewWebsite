@@ -1,0 +1,24 @@
+<body>
+	<style>
+	.wrapper1 {
+  overflow: hidden;
+}
+
+.sliding-background1 {
+  height: 100px;
+  width: 5169px;
+	background-image: url('http://vkgteam.tech/wp-content/uploads/2020/06/Pdslider.png');
+  background-position: right top;
+  animation: mymove 20s linear infinite;
+}
+
+@keyframes mymove {
+  0%{
+    transform: translate3d(-1692px, 0, 0);
+  }
+  100%{
+    transform: translate3d( 0, 0, 0);
+  }
+}
+</style>
+</body>
