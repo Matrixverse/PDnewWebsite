@@ -1,0 +1,24 @@
+<body>
+	<style>
+		.wrapper {
+  overflow: hidden;
+}
+
+.sliding-background {
+  background: url("https://nlperfo-migikala.savviihq.com/wp-content/uploads/2020/07/Diensten.png") repeat-x;
+  height: 100px;
+  width: 4949px;
+  animation: slide 20s linear infinite;
+}
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-1650px, 0, 0);
+  }
+}
+
+</style>
+</body>
